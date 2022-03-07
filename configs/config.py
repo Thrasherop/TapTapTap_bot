@@ -3,7 +3,7 @@ WINDOW_SIZE = "1600 x 900" # This isn't actually used anywhere. It's just here f
 
 # Confidences
 DRAG_CIRCLE_CONFIDENCE = 0.7
-TAP_CIRCLE_CONFIDENCE = 0.7
+TAP_CIRCLE_CONFIDENCE = 0.8
 
 
 # Global configs for classes
@@ -15,7 +15,7 @@ RANDOM_WAIT_DENOMINATOR = 100
 # Basic tap circle configuration
 TAP_CIRCLE_PATH = "sample/tap_circle.png"
 TAP_OFFSET = 100
-TAP_SLEEP = 0.1
+TAP_SLEEP = 0
 
 
 # Swipe up configuration
@@ -41,3 +41,4 @@ SWIPE_RIGHT_DIRECTION_LIST = [50, 0]
 
 # Drag drop configs
 DRAG_CIRCLE_PATH = "sample/drag.png"
+DRAG_PIXEL_OFFSET = 100

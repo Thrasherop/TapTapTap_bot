@@ -22,8 +22,8 @@ class Director:
     def start_all(self):
 
             # Starts all the objects
-            self.swiper.start_deamon()
+            #self.swiper.start_deamon()
             self.basic_tap_clicker.start_deamon()
-            self.drag_manager.start_deamon()
+            #self.drag_manager.start_deamon()
 
-            
+

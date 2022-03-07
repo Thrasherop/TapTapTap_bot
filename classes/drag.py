@@ -1,5 +1,5 @@
 import pyautogui as py
-import time
+from time import sleep
 import threading
 
 
@@ -14,13 +14,21 @@ class Drag:
 
     def drag_drop(self):
 
-        pass 
+        self.__find_drop()
+
+         
 
     def __find_drop(self):
 
-        pass
+        while True: 
+
+            pass
 
     def __perform_drop(self):
+
+        pass
+
+    def __parse_locations(self):
 
         pass
 
